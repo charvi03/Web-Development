@@ -6,3 +6,7 @@ Selector in css ?
     3. id Selector
 2. pseudo-class Selector
 3. multiple Selector
+
+4. Universal Selector
+5. Nested Selector
+6. Attribute Selector
