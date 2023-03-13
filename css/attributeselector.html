@@ -21,11 +21,26 @@
     </style>
 </head>
 <body>
-    <div title="div">
+    <!-- <div title="div">
         <p title="p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim fugit ea corrupti architecto dignissimos veniam nostrum error deserunt, magni, quasi exercitationem. Temporibus quaerat consequuntur nesciunt laboriosam tempore, numquam commodi quae!</p>
 
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum accusamus nihil cupiditate! Iusto et veritatis ipsam quod, ad debitis libero, cumque itaque reprehenderit blanditiis dolorum dignissimos nemo eaque voluptatibus omnis!</p>
-    </div>
+    </div> -->
+
+    <Script>
+  const options = {
+	method: 'GET',
+	headers: {
+		'X-RapidAPI-Key': 'e1ef9fce0fmsh515178e9e88d8d1p104ea2jsnff8a13f26995',
+		'X-RapidAPI-Host': 'alpha-vantage.p.rapidapi.com'
+	}
+};
+
+fetch('https://alpha-vantage.p.rapidapi.com/query?market=CNY&symbol=BTC&function=DIGITAL_CURRENCY_DAILY', options)
+	.then(response => response.json())
+	.then(response => console.log(response))
+	.catch(err => console.error(err));
+    </Script>
 
 
     <a href="https://google.com" target="_blank">Hello</a>
