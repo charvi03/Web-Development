@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      .static {
+        /* by default it is static and it is not affected by top bottom left right  */
+        position: static;
+        left: 30px;
+        border: 3px solid red;
+      }
+      .relative {
+        /* in relative positioning it is affected by top right left bottom 
+        
+        An element with position: relative; is positioned relative to its normal position
+        */
+        position: relative;
+        width: 400px;
+        height: 200px;
+    
+        border: 3px solid red;
+      }
+      .absolute{
+        position: absolute;
+        border: 3px solid blue;
+        bottom:  0px;
+        left: 0;
+        height: 100px;
+        width: 200px;
+      }
+
+      .fixed{
+        position: fixed;
+        bottom: 10px;
+
+        right: 10px;
+        border: 1px solid black;
+      }
+      .sticky{
+        position: sticky;
+        border: 2px solid green;
+        margin: 10px;
+        top: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="static">this is paragraph1 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus illo, incidunt consequuntur deleniti ab accusamus ratione explicabo fugiat ex quibusdam suscipit repellat, facilis expedita praesentium ducimus nisi, sunt libero molestias. Repellat quia doloribus exercitationem natus facilis, odit explicabo beatae. Inventore, quis ducimus! </div>
+
+    <div class="fixed">this is paragraph2</div>
+    <div class="sticky">this is paragraph3</div>
+    <div class="relative">
+        this is absolute div
+        <div class="absolute">this is absolute div</div>
+    </div>
+    <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla omnis labore quaerat, sit eligendi iusto eius laborum quam ipsa assumenda. Recusandae ad dolorum distinctio rerum sapiente qui dignissimos nostrum? Porro suscipit explicabo, cum voluptatum, perferendis neque cupiditate natus reiciendis quaerat odio nobis delectus doloribus autem iste facere blanditiis perspiciatis adipisci, temporibus error! Aut libero error vero velit tempore fuga earum, nesciunt fugiat quasi impedit rerum hic ex doloribus odit repudiandae corporis a consequuntur ducimus quas quae ut cum? Quam quia dignissimos dolorum placeat nostrum iste, dolore saepe, hic suscipit consequuntur itaque neque! Ex, ipsam! A adipisci natus magni amet enim odio! Tempora minima vel et! Quasi autem cupiditate minus saepe ipsum, quisquam ullam debitis soluta! Rem voluptatibus in iste rerum sapiente nemo, corrupti distinctio ratione quae officia fugit dolore vitae facilis magni voluptas, omnis consequatur dignissimos laudantium perspiciatis repudiandae possimus cumque sint provident. Id laboriosam repudiandae suscipit, totam ea error accusamus vero non harum maxime necessitatibus? Numquam placeat voluptatibus soluta odit, eligendi ullam doloribus aperiam. Non, itaque! Modi blanditiis ducimus magni, repellat cum in nam dolorem aliquid molestias consequuntur distinctio aperiam, saepe est enim recusandae quaerat, voluptatibus minima aspernatur iusto perspiciatis eum laboriosam sint quisquam ex! Dolorem, officiis! Quam sapiente recusandae distinctio. Unde similique qui itaque vel eveniet molestias repudiandae, deleniti iure assumenda laudantium inventore animi necessitatibus voluptatibus quod tenetur eum praesentium nesciunt voluptates? Ipsum quisquam quidem possimus velit architecto tempora voluptates et inventore, repudiandae commodi nobis nihil voluptas quam debitis vel cumque numquam esse recusandae laudantium sit accusantium ipsam laboriosam, facilis quae. Qui nemo dignissimos deserunt assumenda necessitatibus quae odit expedita, asperiores, ipsam distinctio excepturi inventore recusandae eaque? Animi, labore beatae odio quibusdam commodi officiis asperiores numquam. Voluptatem eos libero accusamus beatae totam iure qui, nostrum alias maxime hic possimus magni facilis consectetur ad temporibus voluptates, dolor quia magnam quos quam fuga nesciunt? Autem, similique tempore. Laboriosam perferendis, quas ea, odio sequi beatae dicta aspernatur labore, omnis laborum magnam ducimus blanditiis? Dolorum beatae explicabo totam voluptate incidunt ipsum quae et libero vel, recusandae voluptas nisi modi fuga adipisci quidem sequi aliquam sed quod? Ad sunt dolorum quo quia et, reiciendis ullam hic debitis necessitatibus perferendis consectetur praesentium impedit at in nemo quasi quisquam numquam consequuntur aliquid, tempora ipsum. Quaerat minima corrupti ipsa consectetur, commodi vel unde minus reprehenderit accusamus laudantium modi labore debitis dolorem animi quod quis ullam porro harum magni mollitia eos, explicabo voluptas! Fuga exercitationem repudiandae excepturi voluptas hic cum ipsa delectus ut vero adipisci, quaerat voluptatibus dolor temporibus doloribus praesentium quibusdam tempore? Quae fugiat debitis facere, minima dolorem commodi dolore corporis ea ducimus eligendi magni autem voluptatum dicta repellat accusamus. Ratione harum, aliquam ad ab dolore, suscipit necessitatibus dolor illo ex exercitationem praesentium consequatur quod adipisci inventore officiis animi a vero. Nemo velit, error, reiciendis quisquam dolore consequatur quis accusantium culpa molestiae voluptates eligendi possimus iure sit adipisci atque excepturi corrupti nisi pariatur. In quidem quas est iure animi quaerat neque corporis, tenetur assumenda architecto voluptatibus inventore temporibus hic explicabo fugit, dignissimos itaque repellat nesciunt amet.</div>
+  </body>
+</html>
