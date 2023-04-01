@@ -43,3 +43,15 @@ body {
     
 
 }
+.main{
+    margin: 50px;
+    padding: 20px;
+    text-align: center;
+   
+}
+.start{
+    color: white;
+    background-color: #0fae96;
+    border-radius: 5px;
+    padding: 10px;
+}
