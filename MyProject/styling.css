@@ -13,45 +13,88 @@ body {
   justify-content: space-evenly;
   margin: 0;
   padding: 10px;
-  
 }
 .name1 {
   font-size: 40px;
 }
-
 
 .list {
   display: flex;
   list-style-type: none;
   gap: 20px;
   font-size: 20px;
-  
 }
-.btn{
-    display: flex;
-    height: 40px;
-    width: 60px;
-    margin: 10px;
-    justify-content:center;
-    
+.btn {
+  display: flex;
+  height: 40px;
+  width: 60px;
+  margin: 10px;
+  justify-content: center;
 }
-.login{
-    color: white;
-    background-color: #0fae96;
-    border-radius: 5px;
-    padding: 8px;
-    
+.login {
+  color: white;
+  background-color: #0fae96;
+  border-radius: 5px;
+  padding: 8px;
+}
+.main {
+  margin: 50px;
+  padding: 20px;
+  text-align: center;
+}
+.start {
+  color: white;
+  background-color: #0fae96;
+  border-radius: 5px;
+  padding: 10px;
+}
+.box {
+  border: 2px solid black;
+  display: flex;
+  justify-content: space-evenly;
+  height: 200px;
+  margin: 10px;
+  padding: 10px;
+  align-items: center;
+}
 
+.box1 {
+  display: flex;
+  justify-content: space-evenly;
+  border: 2px solid black;
+  background-color: black;
+  opacity: 0.4;
+  border-radius: 10px;
+  padding: 15px;
+  gap: 10px;
 }
-.main{
-    margin: 50px;
-    padding: 20px;
-    text-align: center;
-   
+.box2 {
+  display: flex;
+  justify-content: space-evenly;
+  border: 2px solid black;
+  background-color: black;
+  opacity: 0.4;
+  border-radius: 10px;
+  padding: 15px;
+  gap: 10px;
 }
-.start{
-    color: white;
-    background-color: #0fae96;
-    border-radius: 5px;
-    padding: 10px;
+.box3 {
+  display: flex;
+  justify-content: space-evenly;
+  border: 2px solid black;
+  background-color: black;
+  opacity: 0.4;
+  border-radius: 10px;
+  padding: 15px;
+  gap: 10px;
+}
+.box4 {
+  display: flex;
+  justify-content: space-evenly;
+  border: 2px solid black;
+  background-color: black;
+  opacity: 0.4;
+  border-radius: 10px;
+  padding: 15px;
+  gap: 10px;
 }
