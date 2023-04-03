@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
 body {
   background-image: radial-gradient(
     circle,
@@ -7,6 +8,7 @@ body {
   );
   /* background-image: radial-gradient( circle,#511281 0%,#11011E 100%); */
   color: white;
+  font-family: 'Raleway', sans-serif;
 }
 .container {
   display: flex;
@@ -41,6 +43,14 @@ body {
   margin: 50px;
   padding: 20px;
   text-align: center;
+}
+.main>h1{
+  font-weight: 700;
+}
+.main>p{
+  line-height: 28px;
+  font-size: 18px;
+  width: 40vw;
 }
 .start {
   color: white;
