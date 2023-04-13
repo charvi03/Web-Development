@@ -1,0 +1,81 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.container{
+  background-color: black;
+  display: flex;
+  justify-content: space-evenly;
+  color: white;
+   
+}
+.icon{
+  margin: 10px;
+  padding-top: 30px;
+  height: 60px;
+  width: 40px;
+  font-size: 20px;
+  
+}
+.listitems{
+  align-items: center;
+  display: flex;
+  list-style-type: none;
+  gap: 150px;
+  font-size: 20px;
+  padding: 30px;
+  margin: 10px;
+}
+.searchbar{
+  margin: 10px;
+  padding: 10px;
+}
+#search{
+  border-radius: 5px;
+  height: 30px;
+
+ 
+}
+#sbtn{
+  border: 2px solid white;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: black;
+  color: white;
+}
+li {
+  color: white;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+.main1 {
+  background-color: green;
+  padding: 90px;
+  font-size: 20px;
+}
+.main2 {
+  background-color: blue;
+  padding: 90px;
+  font-size: 20px;
+}
+.java {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 10px;
+  padding: 10px;
+  font-size: 20px;
+}
+.headjava {
+  margin: 10px;
+  padding: 10px;
+}
+.footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  height: 60px;
+  padding: 10px;
+}
