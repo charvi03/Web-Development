@@ -1,1 +1,1 @@
-document.write("welcome to  the javascript");
+document.write("Welcome to JavaScript");
