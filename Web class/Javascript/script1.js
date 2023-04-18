@@ -1,1 +1,3 @@
-document.write("Welcome to JavaScript");
+function func() {
+    document.getElementById("a").innerHTML="How are you !!";
+}
