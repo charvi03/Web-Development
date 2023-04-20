@@ -7,7 +7,11 @@
     <title>Javascript</title>
 </head>
 <body>
-    <script src="script1.js"></script>
-   <h1 id="a">Hello</h1>
+       <h1 id="a">Hello</h1>
    <button onclick="func()">Click on the button to change content </button>
+   <script>
+    function func() {
+    document.getElementById("a").innerHTML="How are you !!";
+}
+   </script>
 </html>
