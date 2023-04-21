@@ -1,0 +1,22 @@
+DATA types 
+string,
+    number,
+    big int,
+    boolean,
+    null,
+    symbol,
+    object(array),
+    undefined 
+
+types of javascript operators
+ 1.comparison,
+ 2.arthimetic,
+  document.write(Math.pow(5,2));
+ 3.bitwise,
+ 4. ternary,
+ 5. type,
+ 6. assignment,
+ 7.string,
+ 8.logical
+ 
+ WRITE A PROGRAM TO CONVERT A PROGRAM TO CONVERT FARHRENHIET TO CELCIUS
