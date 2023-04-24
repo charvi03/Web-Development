@@ -13,8 +13,11 @@
       function temperatureConverter(valNum) {
         return (valNum - 32) / 1.8;
       }
-      let temp = 77;
-      document.getElementById("abc").innerHTML = "The temperature in celcius is "+temperatureConverter(temp)+" degress";
+      let temp = prompt("Please enter the temperature");
+      document.getElementById("abc").innerHTML =
+        "The temperature in celcius is " +
+        temperatureConverter(temp) +
+        " degress";
     </script>
   </body>
 </html>
