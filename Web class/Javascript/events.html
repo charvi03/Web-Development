@@ -1,14 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
-    
-</body>
+  </head>
+  <body>
+    <h1>JavaScript Dates</h1>
+    <button onclick="func()">Click to get date</button>
+    <button onclick="func1()" id="a">Click to get date</button>
+    <p id="c"></p>
+    <script>
+      function func() {
+        document.getElementById("c").innerHTML = Date();
+      }
+      function func1() {
+        document.getElementById("a").innerHTML = Date();
+      }
+    </script>
+  </body>
 </html>
 <!-- 
     html event can be somehting a browser does or something that user does
@@ -22,6 +33,6 @@
     3.onmouseout: the user moves a mouse away from  html element.
     4.onkeydown: the user pushes a keyboard key.
     5.onload: the broswer has finsihed loading the page.
-    ->Date() is inbuilt functio here
+    ->Date() is inbuilt function
 
  -->
