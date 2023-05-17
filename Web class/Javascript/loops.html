@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+
+  <body>
+    Using for the number is 0<br />
+    Using for the number is 1<br />
+    Using for the number is 2<br />
+    Using for the number is 3<br />
+    Using for the number is 4<br /><br />
+    Using while the number is 0<br />
+    Using while the number is 1<br />
+    Using while the number is 2<br />
+    Using while the number is 3<br />
+    Using while the number is 4<br />
+    Using while the number is 5<br />
+    Using while the number is 6<br />
+    Using while the number is 7<br />
+    Using while the number is 8<br />
+    Using while the number is 9<br /><br />
+    Using dowhile the number is 0<br />
+    Using dowhile the number is 1<br />
+    Using dowhile the number is 2<br />
+    Using dowhile the number is 3<br />
+    Using dowhile the number is 4<br />
+    Using dowhile the number is 5<br /><br />
+    <script>
+      let text = " ";
+      for (let i = 0; i < 5; i++) {
+        text += "  Using for the number is " + i + "<br>";
+      }
+      document.write(text);
+      document.write("<br>");
+      let j = 0;
+      let text1 = "";
+      while (j < 10) {
+        text1 += " Using  while the number is " + j + "<br>";
+        j++;
+      }
+      document.write(text1);
+      document.write("<br>");
+
+      let k = 0;
+      let text2 = " ";
+      do {
+        text2 += " Using dowhile the number is " + k + "<br>";
+        k++;
+      } while (k < 6);
+      document.write(text2);
+      document.write("<br>");
+    </script>
+  </body>
+</html>
