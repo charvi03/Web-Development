@@ -12,19 +12,19 @@
         if (x == 0) {
           return 1;
         } else {
-          return x * factorial(x - 1);
+          return x * factorialRecursion(x - 1);
         }
       }
-      function factorialIteration(x) {
-        var fact = 1;
-        for (let i = 1; i <= x; i++) {
-          fact = fact * i;
-        }
-        return fact;
-      }
+      //   function factorialIteration(x) {
+      //     var fact = 1;
+      //     for (let i = 1; i <= x; i++) {
+      //       fact = fact * i;
+      //     }
+      //     return fact;
+      //   }
       var num = prompt("Enter a number: ");
-      //alert(Fcatorial of number is  " + factorialRecursion(num));
-      alert("Fcatorial of number is  " + factorialIteration(num));
+      alert("Factorial of number is  " + factorialRecursion(num));
+      // alert("Factorial of number is  " + factorialIteration(num));
     </script>
   </body>
 </html>
