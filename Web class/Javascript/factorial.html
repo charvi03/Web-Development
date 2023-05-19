@@ -8,13 +8,15 @@
   </head>
   <body>
     <script>
-      function getcube(number) {
-        alert(number * number * number);
+      function factorial(x) {
+        if (x == 0) {
+          return 1;
+        } else {
+          return x * factorial(x - 1);
+        }
       }
+      var num = prompt("Enter a number: ");
+      alert(factorial(num));
     </script>
-    <form>
-      <input type="button" value="click" onclick="getcube(4)" />
-    </form>
   </body>
 </html>
-<!-- write a program to calculate factorial of functions -->
