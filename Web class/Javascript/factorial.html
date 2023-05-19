@@ -8,15 +8,23 @@
   </head>
   <body>
     <script>
-      function factorial(x) {
+      function factorialRecursion(x) {
         if (x == 0) {
           return 1;
         } else {
           return x * factorial(x - 1);
         }
       }
+      function factorialIteration(x) {
+        var fact = 1;
+        for (let i = 1; i <= x; i++) {
+          fact = fact * i;
+        }
+        return fact;
+      }
       var num = prompt("Enter a number: ");
-      alert(factorial(num));
+      //alert(factorialRecursion(num));
+      alert(factorialIteration(num));
     </script>
   </body>
 </html>
