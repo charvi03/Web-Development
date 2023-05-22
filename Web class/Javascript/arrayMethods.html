@@ -10,8 +10,12 @@
     <script>
       var a = ["a", "b", "c", "d"];
       var b = ["e", "f", "g", "h", "i"];
-      var c = a.concat(b);
-      document.write(c);
+      //concatenate
+      var c = a.concat(b, "xyz", "abc");
+      var d = c.concat("abc", "xyz");
+      document.write(d + "<br>");
+      var e = c.sort();
+      document.write(e);
     </script>
   </body>
 </html>
