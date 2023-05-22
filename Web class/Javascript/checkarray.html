@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      var marks = [50, 78, 96, 40];
+      var c = marks.indexOf(78);
+      document.write(c + "<br/>");
+      var d = marks.includes(55);
+      document.write(d + "<br/>");
+      var e = marks.includes(96, 3);
+      document.write(e + "<br/>");
+
+      document.write(marks.every(checkmarks));
+
+      function checkmarks(marks) {
+        return marks >= 40;
+      }
+    </script>
+  </body>
+</html>
+<!-- write js function for given array marks and check whther all the elemnts in array are greater than equal to 40 -->
