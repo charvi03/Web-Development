@@ -8,13 +8,19 @@
   </head>
   <body>
     <script>
-      const students = ["John", "24", "mohali"];
-      students[0] = "xyz";
-      students.push("pqr");
-      document.write(students[3]);
-      document.write("<br/>");
-      students.pop();
-      document.write(students);
+      var arr = ["d", "24", "mohali"];
+      // arr[0] = "xyz";
+      // students.push("pqr");
+      // document.writeln(arr);
+      // document.writeln("<br/>");
+      // arr.pop();
+
+      // document.write(arr);
+      var len = arr.length;
+      document.writeln(len + "<br/>");
+      for (var x = 1; x <= len; x++) {
+        document.writeln("extracted element is " + arr.pop() + "<br>");
+      }
     </script>
   </body>
 </html>

@@ -8,7 +8,7 @@
   </head>
   <body>
     <script>
-      var marks = [50, 78, 96, 40];
+      var marks = [50, 78, 96, 0];
       var c = marks.indexOf(78);
       document.write(c + "<br/>");
       var d = marks.includes(55);
@@ -16,10 +16,14 @@
       var e = marks.includes(96, 3);
       document.write(e + "<br/>");
 
-      document.write(marks.every(checkmarks));
+      document.write(marks.every(checkmarks) + "<br/>");
+      document.write(marks.filter(check2));
 
       function checkmarks(marks) {
         return marks >= 40;
+      }
+      function check2(marks) {
+        return marks > 30;
       }
     </script>
   </body>
