@@ -8,17 +8,33 @@
   </head>
   <body>
     <script>
-      function fun() {
-        this.name = "abc";
-      }
-      function fun1() {
-        fun.call(this);
-      }
+      //   function fun() {
+      //     this.name = "abc";
+      //   }
+      //   function fun1() {
+      //     fun.call(this);
+      //   }
 
-      fun1.prototype = Object.create(fun.prototype);
-      const app = new fun1();
-      document.write(app.name);
-      console.log(app.name);
+      //   fun1.prototype = Object.create(fun.prototype);
+      //   const app = new fun1();
+      //   document.write(app.name);
+      //   console.log(app.name);
+
+      const person = {
+        firstname: "charvi",
+        lastname: "khurana",
+        age: 22,
+        eyecolor: brown,
+      };
+      console.log(person.firstname, person.lastname);
+      document.write(
+        person.firstname +
+          " " +
+          person.lastname +
+          " is " +
+          person.age +
+          " years old"
+      );
     </script>
   </body>
 </html>

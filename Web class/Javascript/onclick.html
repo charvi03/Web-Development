@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <p onclick="clickme()">pls click me</p>
+    <button value="Who is this?" onmouseover="hoverme()">helloooo</button
+    ><br /><br />
+    First input<input
+      type="text"
+      name="name"
+      id="name"
+      onfocus="focusevent()"
+    />
+    <br /><br />
+    second input<input
+      type="text"
+      name="second"
+      id="second"
+      onkeydown="keydownevent()"
+    />
+
+    <script>
+      function clickme() {
+        document.write("this is me");
+      }
+      //   function hoverme() {
+      //     alert("hello there");
+      //   }
+      function focusevent() {
+        document.getElementById("name").style.backgroundColor = "red";
+      }
+      function keydownevent() {
+        document.getElementById("second");
+        alert("pressed keydown");
+      }
+    </script>
+  </body>
+</html>
