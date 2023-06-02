@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      <!--JavaScript Object by object literal-->
+      emp = { id: 102, name: "charvi", salary: 100000 };
+      document.write(emp.id + " " + emp.name + " " + emp.salary);
+      //By creating instance of Object
+      var empp = new Object();
+      empp.id = 101;
+      empp.name = "aaryan";
+      empp.salary = 50000;
+      document.write("<br>" + empp.id + " " + empp.name + " " + empp.salary);
+      //By using an Object constructor
+      function em(id, name, salary) {
+        this.id = id;
+        this.name = name;
+        this.salary = salary;
+      }
+      e = new em(103, "ishita", 90000);
+
+      document.write("<br>" + e.id + " " + e.name + " " + e.salary);
+    </script>
+  </body>
+</html>
