@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Buttons, Icons, and Boxes</h1>
+
+    <button id="okButton">OK</button>
+    <button id="cancelButton">Cancel</button>
+    <br />
+    <br />
+    <div id="messageBox">This is a message box.</div>
+    <input type="text" id="inputBox" />
+
+    <script>
+      // Buttons
+      var okButton = document.getElementById("okButton");
+      okButton.onclick = function () {
+        alert("OK button clicked!");
+      };
+
+      var cancelButton = document.getElementById("cancelButton");
+      cancelButton.onclick = function () {
+        alert("Cancel button clicked!");
+      };
+
+      // Icons
+      var questionIcon = document.querySelector(".fa-question");
+      questionIcon.onclick = function () {
+        alert("Question icon clicked!");
+      };
+
+      // Boxes
+      var inputBox = document.getElementById("inputBox");
+      inputBox.onfocus = function () {
+        alert("Input box focused!");
+      };
+
+      var messageBox = document.getElementById("messageBox");
+      messageBox.onclick = function () {
+        alert("Message box clicked!");
+      };
+    </script>
+  </body>
+</html>
