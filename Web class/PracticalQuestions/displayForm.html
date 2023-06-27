@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <script>
+    const form = document.getElementById("myForm");
+    const submitButton = document.getElementById("sub");
+
+    submitButton.addEventListener("click", () => {
+      const firstName = form.querySelector("input[name='firstName']").value;
+      const lastName = form.querySelector("input[name='lastName']").value;
+      const email = form.querySelector("input[name='email']").value;
+      const password = form.querySelector("input[name='password']").value;
+
+      // Display the registration form data
+      const registrationData = `
+    <h1>Registration Form Data</h1>
+    <p>First Name: ${firstName}</p>
+    <p>Last Name: ${lastName}</p>
+    <p>Email: ${email}</p>
+    <p>Password: ${password}</p>
+  `;
+      console.log(registrationData);
+      document.write(registrationData);
+      // Append the registration form data to the DOM
+      document.querySelector("#registrationData").innerHTML = registrationData;
+    });
+  </script>
+  <body>
+    <form id="myForm">
+      <input type="text" name="firstName" placeholder="First Name" />
+      <input type="text" name="lastName" placeholder="Last Name" />
+      <input type="email" name="email" placeholder="Email" />
+      <input type="password" name="password" placeholder="Password" />
+      <button id="sub">Submit</button>
+    </form>
+    <div id="registrationData"></div>
+  </body>
+</html>

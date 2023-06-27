@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <script>
+    function showTableData() {
+      const table = document.getElementById("myTable");
+      const records = table.querySelectorAll("tr");
+
+      for (const record of records) {
+        const cells = record.querySelectorAll("td");
+        for (const cell of cells) {
+          document.write(cell.textContent + " ");
+        }
+        document.write("<br>");
+      }
+    }
+  </script>
+  <body>
+    <table id="myTable" border="1">
+      <tr>
+        <td>Charvi</td>
+        <td>MCA</td>
+      </tr>
+      <tr>
+        <td>Jasleen</td>
+        <td>MBA</td>
+      </tr>
+      <tr>
+        <td>Nandni</td>
+        <td>M.COM</td>
+      </tr>
+    </table>
+    <br />
+    <input
+      type="button"
+      id="bt"
+      value="Show Table Data"
+      onclick="showTableData()"
+    />
+  </body>
+</html>
