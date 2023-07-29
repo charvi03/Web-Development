@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<play>
+    <author>Shakespeare</author>
+    <title>Macbeth</title>
+    <act number="I">
+        <scene number="vii">
+            <verse>Will I with</verse>
+            <title>Macbeth's castle</title>
+        </scene>
+    </act>
+</play>

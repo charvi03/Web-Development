@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE note [
+    <!ENTITY nbsp "&#xA0;">
+    <!ENTITY name "Name: Charvi,">
+    <!ENTITY course "Course: MCA,">
+    <!ENTITY percentage "Percentage: 89">
+]>
+
+<note>
+    <to>XYZ</to>
+    <from>Charvi</from>
+    <heading>Details about The student</heading>
+    <body>Here are the Required details</body>
+    <detail>&name;&nbsp;&course;&nbsp;&percentage;</detail>
+</note>
